@@ -8,11 +8,7 @@
 ### 环境搭建
 
 ```
-npm install webpack vue vue-loader
+npm install
 ```
 
-有的可能会提示需要安装 css-loader 和 vue-template-compiler
-
-```
-npm i css-loader vue-template-compiler
-```
+虽然能安装package.json中的包，但有的可能会提示某些需要安装，需再看终端提示安装
