@@ -19,7 +19,8 @@ export default {
 	},
 	methods: {
 		deleteTodo (){
-
+			// 与父组件通信
+			this.$emit('del', this.todo.id);
 		}
 	}
 }
