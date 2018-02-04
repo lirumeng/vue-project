@@ -16,3 +16,12 @@ npm install
 ```
 npm run dev
 ```
+
+### webpack配置优化
+`webpack.optimize.CommonsChunkPlugin`
+
+> extract-text-webpack-plugin
+
+##### hash和chunkhash区别
+- chunkhash 每个chunk都会生成一个hash
+- hash 使用同一个hash
